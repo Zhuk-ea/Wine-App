@@ -7,7 +7,6 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from sklearn import metrics
 
-# Пути
 APP_DIR = Path(__file__).parent
 MODEL_PATH = APP_DIR / "model.joblib"
 CONFIG_PATH = APP_DIR / "config.json"
@@ -76,7 +75,7 @@ test_proba = predict_proba_cached(model, X_test)
 with st.sidebar:
     st.header("Настройки")
     threshold = st.slider(
-        "Порог хорошего вина»",
+        "Порог хорошего вина",
         min_value=0.0,
         max_value=1.0,
         value=round(default_threshold, 2),
