@@ -42,4 +42,4 @@ streamlit run app.py
 
 ## Деплой на Streamlit Community Cloud
 
-Ссылка `https://<имя>.streamlit.app`
+Ссылка `https://wine-app-yryvznj65eurkwfcwgnrnx.streamlit.app/`
